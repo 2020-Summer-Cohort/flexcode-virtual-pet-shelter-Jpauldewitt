@@ -29,7 +29,7 @@ public class VirtualPetShelterApp {
             System.out.println();
             System.out.println("Name |Boredom  |Hanger  |Thirst  |Potty  |Tiredness  |");
             myShelter.displayAllPetsAndStats();
-            System.out.println("Don't let these stats get to 100!");
+            System.out.println("Don't let these stats get to 10!");
             System.out.println();
             System.out.println("What would you like to do next?");
             System.out.println("1. Feed the pets");
