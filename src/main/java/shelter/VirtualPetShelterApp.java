@@ -41,7 +41,7 @@ public class VirtualPetShelterApp {
             System.out.println("7. Admit a pet");
             System.out.println("8. Quit");
             int userChoice = input.nextInt();
-            if ((userChoice <= 0 || userChoice > 9)) {
+            if ((userChoice <= 0 || userChoice > 8)) {
                 System.out.println("You entered: " + userChoice + ", which is not a valid option");
                 myShelter.tickAllPets();
             }
